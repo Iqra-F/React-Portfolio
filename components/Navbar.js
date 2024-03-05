@@ -7,7 +7,7 @@ import { GrProjects } from "react-icons/gr";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between bottom-0 items-center gap-4  bg-transparent w-screen h-[8vh] sm:w-[40px] sm:h-[40vh] sm:flex-col absolute sm:top-[30%]  sm:right-0 p-4">
+    <div className="flex justify-between bottom-0 items-center gap-4  sm:bg-gray-300 sm:rounded-3xl w-screen h-[8vh] sm:w-[40px] sm:h-[40vh] sm:flex-col absolute sm:top-[30%]  sm:right-0 p-4">
       <NavLink
         to="/Section1"
         className={(e) => {

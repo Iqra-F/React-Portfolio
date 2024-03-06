@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:  center; */
+  
+
+}
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    height: 200px;
+
+}
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(37, 39, 36, 0.473),
+        hsla(0, 84%, 57%, 0.897)
+    ) !important;
+}
+.bg {
+    background-image: linear-gradient(
+        to top,
+        rgba(225, 178, 167, 0.473),
+        hsla(0, 27%, 96%, 0.897)
+    ) !important;
+}
+/* Custom scrollbar styles */
+.scroll-style::-webkit-scrollbar {
+    width: none; /* Width of the scrollbar */
+  }
+  
+
+  
+  /* For Mozilla Firefox */
+  .scroll-style {
+    scrollbar-width:none; /* Width of the scrollbar */
+  }
+  
+ 
